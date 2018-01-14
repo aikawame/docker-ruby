@@ -1,4 +1,4 @@
-FROM ruby:2.4-alpine3.6
+FROM ruby:2.5-alpine3.7
 
 RUN echo -e "install: --no-document\nupdate: --no-document" > /etc/gemrc \
     && apk add --update --no-cache \
